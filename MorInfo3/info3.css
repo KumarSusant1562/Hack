@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb( 1 , 1 , 224);
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 100px); /* Adjust height according to header */
+}
+
+.image-section img {
+    width: 400px;
+    object-fit: fill;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description-section {
+    margin-left: 40px;
+    max-width: 500px;
+}
+
+.description-section h3 {
+    margin-top: 0;
+}
+.p-text{
+    font-size: 20px;
+}
